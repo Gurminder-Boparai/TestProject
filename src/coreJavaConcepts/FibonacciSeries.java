@@ -10,13 +10,12 @@ public class FibonacciSeries {
 		Scanner sc= new Scanner(System.in);
 		System.out.print("Enter total number of Fibonacci numbers:  ");
 		int n=sc.nextInt();
-		//System.out.print(a+" "+b);
+		int c=0;
 		for(int i=0;i<n;i++) {
-		int c;
-		c=a+b;
-		a=b;
-		b=c;
-		System.out.print(" "+c);
+			System.out.print(" "+a);
+			c=a+b;
+			a=b;
+			b=c;
 		}
 		
 	}
