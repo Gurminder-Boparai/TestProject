@@ -1,7 +1,5 @@
 package coreJavaConcepts;
 
-import acm.graphics.*;
-import coreJavaConcepts.Practice_calc;
 
 
 public class Practice_jar {
